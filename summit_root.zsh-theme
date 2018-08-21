@@ -3,7 +3,7 @@
 local resetColor="%{$reset_color%}"
 local return_status="%(?:%{$fg_bold[white]%}▲ :%{$fg_bold[red]%}▲ )"
 local directory="%{$fg[cyan]%}%3~$resetColor"
-local usersign="%{$bg[red]%}%{$fg_bold[white]%}$%{$reset_color%}"
+local usersign="%{$bg[red]%}%{$fg_bold[white]%}#%{$reset_color%}"
 local terminal_arrow="%{$bg[red]%}%{$fg[white]%}❯$resetColor "
 
 PROMPT='${return_status} $directory $(git_prompt_info)$usersign$terminal_arrow'
