@@ -6,7 +6,7 @@ local directory="%{$fg[cyan]%}%3~$resetColor"
 local usersign="%{$fg_bold[white]%}$%{$reset_color%}"
 local terminal_arrow="%{$fg[white]%}❯$resetColor "
 
-PROMPT='${return_status} $directory $(git_prompt_info)$usersign$terminal_arrow'
+PROMPT='${return_status}$directory $(git_prompt_info)$usersign$terminal_arrow'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="@ %{$fg_bold[blue]%}git:(%{$fg[yellow]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="$resetColor "
