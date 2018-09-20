@@ -1,7 +1,7 @@
 ## For unprivileged users ##
 
 local resetColor="%{$reset_color%}"
-local return_status="%(?:%{$fg_bold[white]%}▲:%{$fg_bold[red]%}▲)"
+local return_status="%(?:%{$fg_bold[white]%}▲▼▲:%{$fg_bold[red]%}▲▼▲)"
 local directory="%{$fg[cyan]%}%3~$resetColor"
 local usersign="%{$fg_bold[white]%}$%{$reset_color%}"
 local terminal_arrow="%{$fg[white]%}❯$resetColor "
