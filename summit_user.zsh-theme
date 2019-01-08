@@ -5,8 +5,8 @@ local return_status="%(?:%{$fg_bold[white]%}▲:%{$fg_bold[red]%}▲)"
 local directory="%{$fg[cyan]%}%3~"
 local usersign="%{$fg_bold[white]%}$%{$reset_color%}"
 local terminal_arrow="%{$fg[white]%}❯$resetColor "
-local lparen="%{$fg_bold[white]%}[%{$fg[cyan]%}"
-local rparen="%{$fg_bold[white]%}]%{$fg[cyan]%}$resetColor"
+local lparen="%{$fg[white]%}["
+local rparen="%{$fg[white]%}]"
 
 PROMPT=' ${return_status} $lparen$directory$rparen $(git_prompt_info)$usersign$terminal_arrow'
 
